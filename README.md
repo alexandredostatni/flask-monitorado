@@ -17,11 +17,17 @@ Prometheus + Grafana: Monitoramento de métricas.
 Estrutura do Projeto:
 
 app.py: Código da aplicação Flask.
+
 Dockerfile: Configuração do container.
+
 requirements.txt: Dependências Python.
+
 deployment.yaml: Definição do deployment Kubernetes.
+
 service.yaml: Definição do serviço Kubernetes.
+
 main.tf: Configuração Terraform para simulação local.
+
 .github/workflows/ci-cd.yaml: Pipeline de CI/CD.
 
 Pré-requisitos:
